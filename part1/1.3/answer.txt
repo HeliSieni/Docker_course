@@ -1,0 +1,6 @@
+Secret message is:
+You can find the source code here: https://github.com/docker-hy
+
+Command:
+docker run -d -it --name testibuntu ubuntu sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
+
