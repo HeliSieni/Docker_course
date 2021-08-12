@@ -1,1 +1,5 @@
+With the input "basics" we get the following seccret message:
+"This is the secret message"
+
+The answer was found by checking the documentation of the imaege from https://hub.docker.com/r/devopsdockeruh/pull_exercise
 
