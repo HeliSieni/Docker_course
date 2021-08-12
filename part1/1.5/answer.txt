@@ -1,1 +1,12 @@
+sudo docker pull devopsdockeruh/simple-web-service:alpine
+sudo docker image ls
+
+# as Expexted Ubuntu is larger
+## devopsdockeruh/simple-web-service   ubuntu    4e3362e907d5   3 months ago   83MB
+## devopsdockeruh/simple-web-service   alpine    fd312adc88e0   3 months ago   15.7MB
+
+#check the functionality
+sudo docker run  -d -it --name alppi devopsdockeruh/simple-web-service:alpine
+sudo docker exec -it alppi sh
+tail -f text.log
 
