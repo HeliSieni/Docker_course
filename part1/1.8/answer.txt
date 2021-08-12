@@ -1,1 +1,3 @@
 
+#"helsinki.fi" was given as an input 
+sudo docker run -it curler
