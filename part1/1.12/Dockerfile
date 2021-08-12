@@ -5,7 +5,8 @@ EXPOSE 5000
 COPY . /usr/src/app
 WORKDIR /usr/src/app/example-frontend
 
-ENV REACT_APP_BACKEND_URL=http://localhost:8080
+#for exc1.14
+#ENV REACT_APP_BACKEND_URL=http://localhost:8080
 
 #curl is needed
 RUN apt-get update; apt-get install -y curl
