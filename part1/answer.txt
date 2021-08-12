@@ -1,3 +1,0 @@
-#commands
-sudo docker build . -t javaproject
-sudo docker run -it -p 8080:8080 javaproject
