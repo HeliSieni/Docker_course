@@ -1,1 +1,11 @@
 
+#start the container
+sudo docker run  -d -it --name testibuntu ubuntu
+#go into the container
+sudo docker exec -it testibuntu bash
+#install curl 
+apt-get update; apt-get install curl
+#check that installation works
+curl --version
+#run the required command and give helsinki.fi as an input
+echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website
