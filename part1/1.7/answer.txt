@@ -1,5 +1,5 @@
 
-#After building the container with 
+#After building the image with 
 sudo docker build . -t web-service
 #it is run with
 sudo docker run web-service
