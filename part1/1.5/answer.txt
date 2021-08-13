@@ -9,4 +9,5 @@ sudo docker image ls
 sudo docker run  -d -it --name alppi devopsdockeruh/simple-web-service:alpine
 sudo docker exec -it alppi sh
 tail -f text.log
+# the functionality is the same
 
