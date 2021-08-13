@@ -1,0 +1,20 @@
+to make this woek user must be added to docker group
+
+sudo gpasswd -a $USER docker
+newgrp docker
+
+#Pull
+docker pull devopsdockeruh/heroku-example
+
+#Tag
+sudo docker tag devopsdockeruh/heroku-example  registry.heroku.com/course-exercise/web
+
+#push
+docker push registry.heroku.com/course-exercise/web
+
+#release
+heroku container:release web -a course-exercise
+
+
+#software can be found here
+https://dashboard.heroku.com/apps/course-exercise
