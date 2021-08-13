@@ -1,8 +1,8 @@
 Secret message is:
 You can find the source code here: https://github.com/docker-hy
 
-Command:
-sudo docker exec -it testi bash 
+Commands:
 sudo docker run -d -it --name testi devopsdockeruh/simple-web-service:ubuntu
+sudo docker exec -it testi bash 
 tail text.log
 
