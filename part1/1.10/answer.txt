@@ -1,1 +1,2 @@
+#using the built image from exercise 1.7
 sudo docker run -p 8080:8080 web-service 
